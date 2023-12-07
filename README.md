@@ -1,2 +1,2 @@
-# MOOC.fi-Java-Programming-I
-MOOC.fi - Java Programming I - Personal Submitions
+# MOOC.fi-Java-Programming
+MOOC.fi - Java Programming - Personal Submissions
