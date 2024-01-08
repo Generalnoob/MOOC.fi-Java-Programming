@@ -7,6 +7,21 @@ public class Story {
         Scanner scanner = new Scanner(System.in);
 
         // Write your program here
-
+        System.out.println("I will tell you a story, but I need some information first.");
+        //Asking for a name
+        System.out.println("What is the main character called?");
+        // Store the response for name
+        String name = scanner.nextLine();
+        
+        //Asking about the job position
+        System.out.println("What is their job?");
+        // Store the response for the job
+        String job = scanner.nextLine();
+        
+        //The story
+        System.out.println("Here is the story:");
+        System.out.println("Once upon a time there was " + name + ", who was " + job + ".");
+        System.out.println("On the way to work, " + name + " reflected on life.");
+        System.out.println("Perhaps " + name + " will not be " + job + " forever.");
     }
 }
